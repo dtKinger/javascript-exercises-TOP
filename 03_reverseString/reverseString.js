@@ -9,7 +9,7 @@ const reverseString = function(string) {
   // working our way backwards to first index[0]
   // Add that character to a new string variable. 
   for (let i = chars.length-1; i >= 0; i--){
-    reverseChars += `${chars[i]}`;
+    reverseChars += chars[i];
   }
   return reverseChars;
   // We counted up by counting down.
