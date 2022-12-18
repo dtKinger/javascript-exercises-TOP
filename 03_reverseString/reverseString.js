@@ -11,9 +11,16 @@ const reverseString = function(string) {
   for (let i = chars.length-1; i >= 0; i--){
     reverseChars += `${chars[i]}`;
   }
+  return reverseChars;
   // We counted up by counting down.
+};
   
-console.log(reverseChars);
+
+// Do not edit below this line
+module.exports = reverseString;
+
+
+
   
   
   /*  
@@ -27,7 +34,6 @@ console.log(reverseChars);
   // Print the array in reverse order looping
   // backwards through the index
   // return reverseChars;
-};
 
-// Do not edit below this line
-module.exports = reverseString;
+
+
