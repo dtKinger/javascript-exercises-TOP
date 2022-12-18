@@ -18,22 +18,3 @@ const reverseString = function(string) {
 
 // Do not edit below this line
 module.exports = reverseString;
-
-
-
-  
-  
-  /*  
-  for (let i = (words.length - 1); i >= 0; i--){
-      
-      reverseChars.push()
-    }
-    */
-  // Split the words into an array of letters
-  
-  // Print the array in reverse order looping
-  // backwards through the index
-  // return reverseChars;
-
-
-
