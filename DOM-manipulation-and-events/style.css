@@ -1,4 +1,42 @@
+body{
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
 .bg-div {
   background-color: pink;
   border: 2px solid black;
+  padding: 20px;
+}
+
+.events-container{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+button{
+  border-style: none;
+}
+
+.btn{
+  flex: 1;
+  min-width: 300px;
+  padding: 8px 16px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  cursor: pointer;
+  transform: translate(0px, -10px) scale(1.05);
+}
+
+.btn:active{
+  transform: scale(0.95);
 }

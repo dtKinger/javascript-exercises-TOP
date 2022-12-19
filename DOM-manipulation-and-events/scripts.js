@@ -18,4 +18,24 @@ paraTwo.textContent = "ME TOO!";
 h1.textContent = "I'm in a div";
 divTwo.append(h1, paraTwo);
 // divTwo.append(paraTwo);
-container.append(divTwo);
+container.appendChild(divTwo);
+
+
+/* =======================
+Event handlers
+======================= */
+
+const btn2 = document.querySelector('#btn2');
+btn2.onclick = () => alert("Hello, World!");
+
+
+const btn3 = document.querySelector('#btn3');
+btn3.addEventListener('click', () => {
+  alert("Hello,, World!");
+});
+
+/*
+const btn3 = document.querySelector('#btn3');
+btn3.addEventListener('click', alertHey);
+function alertHey(){ alert('Hello,, World!!');};
+*/
