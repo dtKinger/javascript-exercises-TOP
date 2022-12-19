@@ -1,5 +1,7 @@
 const leapYears = function(x) {
   if (x % 4 == 0 && x % 100 != 0 || x % 400 == 0){
+    // Note: this fails if reordered to:
+    // if (x % 4 == 0 || x % 400 == 0 && x % 100 != 0)
     return true;
   } else {
     return false;
