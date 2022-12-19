@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Exercise 07 - tempConversion</h1>
+    <p>Write two functions that convert temperatures from Fahrenheit to Celsius, and vice versa:</p>
+    <pre><code>convertToCelsius(32) // fahrenheit to celsius, should return 0
+    
+    convertToFahrenheit(0) // celsius to fahrenheit, should return 32
+    </code></pre>
+    <p>Because we are human, we want the result temperature to be rounded to one decimal place: i.e., <code>convertToCelsius(100)</code> should return <code>37.8</code> and not <code>37.77777777777778</code>.</p>
+    <p>This exercise asks you to create more than one function so the <code>module.exports</code> section of the spec file looks a little different this time.  Nothing to worry about, we're just packaging both functions into a single object to be exported.</p>
+    <h2>Hints</h2>
+      <ul>
+        <li>
+          <p>You can find the relevant formulae on <a href="https://en.wikipedia.org/wiki/Conversion_of_units_of_temperature">Wikipedia</a>.</p>
+        </li>
+        <li>
+          <p>Try to find by yourself on the Internet how to round a number to 1 decimal place in JavaScript. If you struggle, have a look <a href="https://stackoverflow.com/q/7342957/5433628">here</a>.</p>
+        </li>
+      </ul>
+
+  <script src="tempConversion.js"></script>
+</body>
+</html>
