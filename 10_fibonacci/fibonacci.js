@@ -1,7 +1,5 @@
 const fibonacci = function(n) {
-  if (n < 0){
-    return "OOPS";
-  }
+  if (n < 0) return "OOPS";
   let fibArray = [1, 1];
   for (let i = 1; i < n; i++){
     fibArray.push(fibArray[i] + fibArray[i - 1]);
