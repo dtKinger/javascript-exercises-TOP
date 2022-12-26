@@ -4,7 +4,7 @@ const fibonacci = function(n) {
   }
   let fibArray = [1, 1];
   for (let i = 1; i < n; i++){
-    fibArray[fibArray.length] = (fibArray[i] + fibArray[i - 1]);
+    fibArray.push((fibArray[i] + fibArray[i - 1]));
  } 
  return fibArray[n - 1];
 };
